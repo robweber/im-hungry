@@ -6,7 +6,7 @@ Right now nothing! As you can see by browsing the source this is basically the d
 
 ##Why?
 
-I'm sick of now knowing what is in my house to eat! Like a lot of households our food is broken down and scattered into the refridgerator, extra freezer, cabinets, pantry, etc. When it comes right down to it, I have no idea what's available to eat, let a lone make a meal out of. This simple web app will help keep track of what is available and how to combine that into a breakfast/lunch/dinner/whatever. 
+I'm sick of not knowing what is in my house to eat! Like a lot of households our food is broken down and scattered into the refridgerator, extra freezer, cabinets, pantry, etc. When it comes right down to it, I have no idea what's available to eat; let a lone make a meal out of. This simple web app will help keep track of what is available and how to combine that into a breakfast/lunch/dinner/whatever. 
 
 ##Features
 
