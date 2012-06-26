@@ -29,6 +29,11 @@ input[type=submit] {
 	width:965px;
 }
 
+.error_message {
+	font-size:1.4em;
+	color:#FF0000;
+}
+
 #top_header {
 	margin:0;
 	padding:0;
@@ -79,4 +84,39 @@ input[type=submit] {
 
 #footer {
 	border-top: solid #000000; 1px;
+}
+
+.pantry_group {
+	margin-bottom:100px;
+	list-style:none;
+	min-height:50px;
+}
+
+.pantry_group li {
+	clear:both;
+}
+
+.food_item p {
+	float:left;
+}
+
+.food_item .quantity {
+	font-size:2.0em;
+	font-weight:bold;
+	color:#66CD00;
+	width:35px;
+	position:relative;
+	top:-7px;
+}
+
+.food_item .food_name {
+	font-size:1.4em;
+	letter-spacing:.1em;
+	width:300px;
+
+}
+
+.food_item .image_anchor {
+	cursor:pointer;
+	margin-left:3px;
 }

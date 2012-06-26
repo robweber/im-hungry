@@ -170,3 +170,224 @@
 2012-06-26 17:13:22 Error: [MissingControllerException] Controller class FoodItemsController could not be found.
 #0 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-26 19:26:41 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Ajax\update_item.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-26 19:31:26 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(861): HelperCollection->load('Javascript', Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(468): View->loadHelpers()
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-06-26 19:31:42 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Ajax\update_item.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-26 19:31:59 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Ajax\update_item.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-26 19:32:19 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Ajax\update_item.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-26 19:33:09 Error: [MissingActionException] Action AjaxController::updateItem() could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-26 19:51:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'del' at line 1
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('del', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('del', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(612): DboSource->fetchAll('del', Array, Array)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(784): DboSource->query('del', Array, Object(PantryLocation))
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\AjaxController.php(53): Model->__call('del', Array)
+#6 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\AjaxController.php(53): PantryLocation->del('9')
+#7 [internal function]: AjaxController->delete_location('9')
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-06-26 20:08:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 20:50:54 Error: [MissingActionException] Action AjaxController::move_item() could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-26 20:59:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:00:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:00:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:02:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:02:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:04:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:04:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:06:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:20:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:20:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FoodItem.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(PantryLocation), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(16): Model->find('all', Array)
+#6 [internal function]: FoodController->pantry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 21:35:39 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Ajax\save_table.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-26 21:35:59 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Ajax\save_table.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-26 21:36:19 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Ajax\save_table.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-26 21:36:49 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Ajax\save_table.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -1,7 +1,7 @@
 <?php
 
 class FoodController extends AppController {
-	var $uses = array('FoodItem','PantryLocation');
+	var $uses = array('FoodItem','PantryLocation','Recipe');
 	
 	function index(){
 		
@@ -21,6 +21,10 @@ class FoodController extends AppController {
 		$this->FoodItem->save($this->data['FoodItem']);
 		
 		$this->redirect(array('controller'=>'Food','action'=>'pantry'));
+	}
+	
+	function add_recipe(){
+		
 	}
 }
 

@@ -1,3 +1,1 @@
-<div style="height:100px;">
-<p>some stuff here</p>
-</div>
+<p align="right"><?php echo $this->Html->image('add.png',array('url'=>'/food/add_recipe'))?></p>
