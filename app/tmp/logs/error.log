@@ -50,3 +50,123 @@
 #3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2012-06-26 15:53:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 15:53:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 15:53:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 15:53:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-26 16:00:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PantryLocation.name' in 'order clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `PantryL...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `PantryL...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `PantryL...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\AdminController.php(9): Model->find('all', Array)
+#6 [internal function]: AdminController->index()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-26 16:12:14 Error: [MissingActionException] Action AdminController::save() could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-26 16:21:20 Error: [MissingActionException] Action AdminController::saveLocation() could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-26 16:35:33 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `im...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1008): DboSource->execute('INSERT INTO `im...')
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(1730): DboSource->create(Object(PantryLocation), Array, Array)
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\AjaxController.php(12): Model->save(Array)
+#5 [internal function]: AjaxController->save_location()
+#6 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-26 16:35:43 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `im...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1008): DboSource->execute('INSERT INTO `im...')
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(1730): DboSource->create(Object(PantryLocation), Array, Array)
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\AjaxController.php(12): Model->save(Array)
+#5 [internal function]: AjaxController->save_location()
+#6 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-26 16:36:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `im...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1008): DboSource->execute('INSERT INTO `im...')
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(1730): DboSource->create(Object(PantryLocation), Array, Array)
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\AjaxController.php(12): Model->save(Array)
+#5 [internal function]: AjaxController->save_location()
+#6 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AjaxController), Array)
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-06-26 17:00:39 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Dropbox\JARVIS\I'm Hungry\app\View\Food\pantry.ctp, line 1]
+2012-06-26 17:00:39 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Dropbox\JARV...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Dropbox\JARV...', 1, Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Dropbox\JARV...', 1, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-06-26 17:01:34 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Dropbox\JARVIS\I'm Hungry\app\View\Food\pantry.ctp, line 1]
+2012-06-26 17:01:34 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Dropbox\JARV...', 1)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Dropbox\JARV...', 1, Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Dropbox\JARV...', 1, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-06-26 17:01:54 Error: [MissingTableException] Table food_items for model FoodItem was not found in datasource default.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(3184): Model->setSource('food_items')
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('FoodItem', 'fields')
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\View\Food\pantry.ctp(1): FormHelper->create('FoodItem', Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(920): include('C:\Dropbox\JARV...')
+#6 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(883): View->_evaluate('C:\Dropbox\JARV...', Array)
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(475): View->_render('C:\Dropbox\JARV...')
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-06-26 17:06:01 Error: Fatal Error (1): Unsupported operand types in [C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\Helper\FormHelper.php, line 1805]
+2012-06-26 17:06:01 Error: [FatalErrorException] Unsupported operand types
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\Dropbox\JARV...', 1805)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\Dropbox\JARV...', 1805, Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\Dropbox\JARV...', 1805, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-06-26 17:06:37 Error: Fatal Error (1): Call to a member function submit() on a non-object in [C:\Dropbox\JARVIS\I'm Hungry\app\View\Food\pantry.ctp, line 2]
+2012-06-26 17:06:37 Error: [FatalErrorException] Call to a member function submit() on a non-object
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Dropbox\JARV...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Dropbox\JARV...', 2, Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Dropbox\JARV...', 2, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-06-26 17:13:22 Error: [MissingControllerException] Controller class FoodItemsController could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

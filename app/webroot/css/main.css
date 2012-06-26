@@ -12,8 +12,16 @@ p {
 	padding:5px;
 }
 
+h1 {
+	margin-bottom:5px;
+}
+
 img {
 	border:none;
+}
+
+input[type=submit] {
+	padding:3px;
 }
 
 .center_box {
@@ -65,6 +73,8 @@ img {
 	background-color:#FFFFFF;
 	margin:0;
 	padding:0;
+	padding-bottom:25px;
+	padding-top:25px;
 }
 
 #footer {

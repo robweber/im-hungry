@@ -1,35 +1,36 @@
+<?php
+	$this->Html->script('jquery.jeditable',false); 
+?>
 <h1>Pantry Locations</h1>
-<table></table>
+<table width="50%">
+<?php foreach($p_locations as $location): ?>
+<tr>
+	<td width="50%" class="edit" id="location_<?php echo $location['PantryLocation']['id']?>"><?php echo $location['PantryLocation']['name']?></td>
+	<td>Delete</td>
+</tr>
+<?php endforeach; ?>
+<tr>
+	<td class="edit" id="location_new">Add Location</td>
+</tr>
+</table>
 <h1></h1>
 
 <script type="text/javascript">
-
-$(document).ready(function()
-    {
-        $('a').click(function(event){
-            var id = $(this).parent().parent().attr('id'); //get id of referent tr
-            $('input[name="editvalue"]').attr('id',id); // insert id on input submit
-        });
-        
-        $('#form_edit').submit(function(event)
-        {
-            event.preventDefault();
-            id = $('input[name="editvalue"]').attr('id'); // get id of input submit
-            value1 = $('input[name="value1"]').val(); // get value of input text value1
-            value2 = $('input[name="value2"]').val(); // get value of input text value2
-            
-            $.ajax({ // Send request
-                type: "POST", 
-                url: 'updaterow.php', 
-                data: {id: id, value1: value1, value2:value2}, //Values 1 and 2 and Id referent
-                cache: false,
-                success: function(response){
-                    if(response=="success"){ // updaterow return "success" or echo "success"
-                        $('#1 td:nth-child(1)').text(value1);
-                        $('#1 td:nth-child(2)').text(value2);
-                    }
-                },
-             });
-         });
-    });
+$(document).ready(function(){
+	$('.edit').editable('/ajax/save_location', {
+		indicator: 'Saving...',
+		submit: 'OK',
+		cancel: 'Cancel',
+		loadtype:'POST',
+		tooltp: 'Click to edit',
+		callback: function(value,settings){
+			
+			if($(this).attr('id') == 'location_new')
+			{
+				//reload the page (taking the easy way out)
+				window.location.reload();
+			}
+		}
+	});
+});
 </script>

@@ -9,7 +9,8 @@
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('main');
-
+		echo $this->Html->script('jquery');
+		
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -21,7 +22,7 @@
 			<div id="top_nav">
 				<ul>
 					<li><?php echo $this->Html->link('Recipes','') ?></li>
-					<li><?php echo $this->Html->link('Pantry','') ?></li>
+					<li><?php echo $this->Html->link('Pantry','/food/pantry') ?></li>
 					<li><?php echo $this->Html->link("I'm Hungry",'') ?></li>
 					<li><?php echo $this->Html->image('settings_cog.png',array('class'=>'settings','url'=>array('controller'=>'admin','action'=>'index'))) ?></li>
 				</ul>
@@ -40,6 +41,6 @@
 			<p align="center">I'm Hungry Web App. Written by Rob Weber. <a href="https://github.com/robweber/im-hungry/">https://github.com/robweber/im-hungry/</a></p>
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	<?php //echo $this->element('sql_dump'); ?>
 </body>
 </html>
