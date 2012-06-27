@@ -1,9 +1,12 @@
 <?php
 
 class FoodController extends AppController {
-	var $uses = array('FoodItem','PantryLocation','Recipe');
+	var $uses = array('FoodItem','PantryLocation','Recipe','RecipeType','Ingredient');
 	
 	function index(){
+		//get a list of recipes
+		$allRecipes = $this->Recipe->find('all',array('order'=>array('Recipe.name')));
+		$this->set("recipes",$allRecipes);
 		
 	}
 	
@@ -23,14 +26,32 @@ class FoodController extends AppController {
 		$this->redirect(array('controller'=>'Food','action'=>'pantry'));
 	}
 	
-	function add_recipe(){
-		$this->Recipe->create();
-		$this->Recipe->set('name','New Recipe');
-		$this->Recipe->save();
+	function edit_recipe($id = null){
+
+		//create a new recipe
+		if($id == null)
+		{
+			$this->Recipe->create();
+			$this->Recipe->set('name','New Recipe');
+			$this->Recipe->save();
+			
+			$id = $this->Recipe->id;
+		}
 		
-		$this->set('recipeId',$this->Recipe->id);
+		$recipe = $this->Recipe->find('first',array('conditions'=>array('Recipe.id'=>$id)));
+		$this->set('recipe',$recipe);
+		
+		//get a list of all recipe types
+		$allTypes = $this->RecipeType->find('list',array('fields'=>array('RecipeType.id','RecipeType.name'),'order'=>'RecipeType.name'));
+		$this->set('recipeTypes',$allTypes);
+		
 	}
 	
+	function hungry(){
+		//get any ingredients that we have on hand that match our recipies
+		$allIngredients = $this->Ingredient->query('select recipe_id, ingredients.name from ingredients inner join food_item on food_item.name = ingredients.name where food_item.quantity >= ingredients.quantity order by recipe_id');
+
+	}
 }
 
 ?>

@@ -80,6 +80,7 @@ input[type=submit] {
 	padding:0;
 	padding-bottom:25px;
 	padding-top:25px;
+	min-height:400px;
 }
 
 #footer {
@@ -119,4 +120,20 @@ input[type=submit] {
 .food_item .image_anchor {
 	cursor:pointer;
 	margin-left:3px;
+}
+
+#recipe h1 {
+	margin-bottom:25px;
+}
+
+#recipe .recipeType {
+	color:#66CD00;
+	font-weight:normal;
+	font-size:.6em;
+	margin-left:10px;
+}
+
+#recipe #ingredient_table {
+	margin-top:20px;
+	font-size:1.2em;
 }

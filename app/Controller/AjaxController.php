@@ -1,9 +1,8 @@
 <?php
 
 class AjaxController extends AppController {
-	var $uses = array('PantryLocation','FoodItem','RecipeType');
+	var $uses = array('PantryLocation','FoodItem','RecipeType','Recipe','Ingredient');
 	var $layout = '';
-	var $helpers = array('Js');
 	
 	function beforeRender(){
 		Controller::disableCache(); 
@@ -83,6 +82,48 @@ class AjaxController extends AppController {
 	
 	function delete_type($id){
 		$this->redirect("/admin");
+	}
+	
+	function search_food(){
+		$q = 'no data';
+		if(isset($this->params['url']['term']))
+		{
+			$q = $this->params['url']['term'];
+		}
+		
+		//get the food items
+		$items = $this->FoodItem->find('list',array('fields'=>array('FoodItem.name'),'conditions'=>'FoodItem.name LIKE "' . $q . '%"'));
+		
+		$this->set('output',array_values($items));
+		$this->render('update_item');
+	}
+	
+	function update_recipe($id){
+		$field = $this->data['field'];
+		$value = $this->data['value'];
+		
+		$this->Recipe->id = $id;
+		$this->Recipe->set($field,$value);
+		$this->Recipe->save();
+		
+		$this->set('output',"Success");
+		$this->render('update_item');
+	}
+	
+	function add_ingredient(){
+		$id = $this->data['id'];
+		$quantity = $this->data['quantity'];
+		$name = $this->data['name'];
+		
+		//add the ingredient
+		$this->Ingredient->create();
+		$this->Ingredient->set('recipe_id',$id);
+		$this->Ingredient->set('quantity',$quantity);
+		$this->Ingredient->set('name',$name);
+		$this->Ingredient->save();
+		
+		$this->set('output',"Success");
+		$this->render('update_item');
 	}
 }
 
