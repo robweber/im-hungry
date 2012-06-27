@@ -42,7 +42,7 @@ $(function(){
 			pantry = pantry.substring(7);
 	
 			//send ajax request
-			$.ajax('/ajax/move_item/' + item + "/" + pantry);
+			$.ajax('<?php echo $this->Html->url('/',true) ?>ajax/move_item/' + item + "/" + pantry);
 		}
 	}).disableSelection();
 });
@@ -60,7 +60,7 @@ function updateItem(id, amount){
 	$('#quantity_' + id).html(current);
 	
 	//send the request
-	$.ajax('/ajax/update_item/' + id + '/' + current);
+	$.ajax('<?php echo $this->Html->url('/',true) ?>ajax/update_item/' + id + '/' + current);
 	
 	
 }

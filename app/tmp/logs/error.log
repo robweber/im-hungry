@@ -391,3 +391,18 @@
 #3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AjaxController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-06-27 14:37:48 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+" is missing, or could not be created.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(3184): Model->setSource('pantry_location...')
+#5 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#6 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\AdminController.php(9): Model->find('all', Array)
+#7 [internal function]: AdminController->index()
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

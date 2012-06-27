@@ -24,8 +24,13 @@ class FoodController extends AppController {
 	}
 	
 	function add_recipe(){
+		$this->Recipe->create();
+		$this->Recipe->set('name','New Recipe');
+		$this->Recipe->save();
 		
+		$this->set('recipeId',$this->Recipe->id);
 	}
+	
 }
 
 ?>

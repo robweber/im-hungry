@@ -25,7 +25,7 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-	$('.edit').editable('/ajax/save_table', {
+	$('.edit').editable('<?php echo $this->Html->url('/',true) ?>ajax/save_table', {
 		indicator: 'Saving...',
 		submit: 'OK',
 		cancel: 'Cancel',
