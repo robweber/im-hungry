@@ -2,7 +2,7 @@
 
 ##What is it? 
 
-Right now nothing! As you can see by browsing the source this is basically the default CakePHP framework just dumped to a repository. The idea is to build an easy to use web application that will help you keep track of recipes and the food you have on hand to prepare them. 
+This is a simple to use web interface for keeping track of your recipes and the ingredients you have on hand to prepare them. You can define different food locations in your home and quickly add/remove product as you go shopping or throw things out. Adding your recipes allows you to use the 'I'm Hungry' feature and compare your ingredient list to your current food items and see what meals you can make without going to the store. 
 
 ##Why?
 
