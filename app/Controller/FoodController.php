@@ -49,8 +49,51 @@ class FoodController extends AppController {
 	
 	function hungry(){
 		//get any ingredients that we have on hand that match our recipies
-		$allIngredients = $this->Ingredient->query('select recipe_id, ingredients.name from ingredients inner join food_item on food_item.name = ingredients.name where food_item.quantity >= ingredients.quantity order by recipe_id');
+		$sqlQ = $this->Ingredient->query('select recipe_id, ingredients.name from ingredients inner join food_item on food_item.name = ingredients.name where food_item.quantity >= ingredients.quantity order by recipe_id');
+		
+		$recipeList = array();
+		$ingredientTotals = array();
+		
+		foreach($sqlQ as $response){
+			//check if this key already exists
+			if(array_key_exists($response['ingredients']['recipe_id'],$ingredientTotals))
+			{
+				//simply add to the total
+				$ingredientTotals[$response['ingredients']['recipe_id']] = $ingredientTotals[$response['ingredients']['recipe_id']] + 1;
+			}
+			else
+			{
+				$recipeList[] = $response['ingredients']['recipe_id'];
+				$ingredientTotals[$response['ingredients']['recipe_id']] = 1;
+			}
+		}
 
+		//if we are filtering on type
+		$searchConditions = array('OR'=>array('Recipe.id'=>$recipeList));
+		if(isset($this->data['Filter']) && $this->data['Filter']['type'] != "")
+		{
+			$searchConditions[] = array('Recipe.type_id'=>$this->data['Filter']['type']);
+		}
+		
+		$allRecipes = $this->Recipe->find('all',array('conditions'=>$searchConditions));
+		$result = array();
+		//go through the recipes and make sure the ingredients we have match the totals we need
+		for($i = 0; $i < count($allRecipes); $i ++)
+		{
+			$ingredient_total = count($allRecipes[$i]['Ingredient']);
+			
+			if($ingredient_total <= $ingredientTotals[$allRecipes[$i]['Recipe']['id']])
+			{
+				//add this recipe to the result
+				$result[] = $allRecipes[$i];
+			}
+		}
+		
+		$this->set('allRecipes',$result);
+		
+		//throw in a list of the types for filtering
+		$r_types = $this->RecipeType->find('list',array('fields'=>array('RecipeType.id','RecipeType.name'),'order'=>array('RecipeType.name desc')));
+		$this->set('r_types',$r_types);
 	}
 }
 

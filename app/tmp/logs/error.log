@@ -480,3 +480,76 @@
 #3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2012-06-27 20:47:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Recipe`...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `Recipe`...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `Recipe`...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Recipe), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(59): Model->find('all', Array)
+#6 [internal function]: FoodController->hungry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-27 20:47:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Recipe`...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `Recipe`...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `Recipe`...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Recipe), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(59): Model->find('all', Array)
+#6 [internal function]: FoodController->hungry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-27 20:47:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Recipe`...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `Recipe`...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `Recipe`...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Recipe), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(59): Model->find('all', Array)
+#6 [internal function]: FoodController->hungry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-27 20:49:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Recipe`...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `Recipe`...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `Recipe`...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Recipe), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(59): Model->find('all', Array)
+#6 [internal function]: FoodController->hungry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-06-27 21:14:36 Error: Fatal Error (1): Unsupported operand types in [C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\Helper\FormHelper.php, line 1805]
+2012-06-27 21:14:36 Error: [FatalErrorException] Unsupported operand types
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\Dropbox\JARV...', 1805)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\Dropbox\JARV...', 1805, Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\Dropbox\JARV...', 1805, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-06-27 21:24:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RecipeType.name asc' in 'field list'
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `RecipeT...', Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(670): DboSource->execute('SELECT `RecipeT...', Array, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Datasource\DboSource.php(1081): DboSource->fetchAll('SELECT `RecipeT...', false)
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Model\Model.php(2631): DboSource->read(Object(RecipeType), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\FoodController.php(95): Model->find('list', Array)
+#6 [internal function]: FoodController->hungry()
+#7 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FoodController), Array)
+#8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FoodController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
