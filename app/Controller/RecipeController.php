@@ -1,7 +1,7 @@
 <?php
 
 class RecipeController extends AppController {
-	var $uses = array('FoodItem','PantryLocation','Recipe','RecipeType','Ingredient');
+	var $uses = array('FoodItem','PantryLocation','Recipe','RecipeType','Ingredient','RecipeInstruction');
 	
 	function index(){
 		//get a list of recipes
@@ -29,6 +29,44 @@ class RecipeController extends AppController {
 		$allTypes = $this->RecipeType->find('list',array('fields'=>array('RecipeType.id','RecipeType.name'),'order'=>'RecipeType.name'));
 		$this->set('recipeTypes',$allTypes);
 		
+	}
+	
+	function delete_instruction($id,$recipe){
+		$this->RecipeInstruction->delete($id);
+		
+		$this->redirect('/recipe/edit_recipe/' . $recipe);
+	}
+	
+	function search(){
+		//check if we are POSTing from form
+		if(isset($this->data['Search']['q']))
+		{
+			$q = trim($this->data['Search']['q']);
+			
+			//get any recipes that match
+			$matches = $this->Recipe->find('all',array('conditions'=>array('Recipe.name LIKE "%' . $q . '"')));
+			
+			if(count($matches) == 1)
+			{
+				//we can just go right to this item
+				$this->redirect('/recipe/edit_recipe/' . $matches[0]['Recipe']['id']);
+			}
+			else
+			{
+				$this->set('recipes',$matches);
+				$this->render('index');
+			}
+		}
+		else
+		{
+			$this->layout = '';
+			//we are autocompleteing (GET)
+			$q =  $this->params['url']['term'];
+			
+			$matches = $this->Recipe->find('list',array('fields'=>array('Recipe.name'),'conditions'=>'Recipe.name LIKE "' . $q . '%"'));
+			$this->set('output',array_values($matches));
+			$this->render('ajax');
+		}
 	}
 	
 	//Ajax functions
@@ -62,6 +100,23 @@ class RecipeController extends AppController {
 		$this->Ingredient->save();
 		
 		$this->set('output',"Success");
+		$this->render('ajax');
+	}
+	
+function add_instruction(){
+		$this->layout = '';
+		
+		$id = $this->data['id'];
+		$text = $this->data['text'];
+		$position = $this->data['position'];
+		
+		$this->RecipeInstruction->create();
+		$this->RecipeInstruction->set('recipe_id',$id);
+		$this->RecipeInstruction->set('text',$text);
+		$this->RecipeInstruction->set('position',$position);
+		$this->RecipeInstruction->save();
+		
+		$this->set('output',array("id"=>$this->RecipeInstruction->id,"recipe"=>$id,'position'=>$position,'text'=>$text));
 		$this->render('ajax');
 	}
 }

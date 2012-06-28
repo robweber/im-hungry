@@ -21,7 +21,8 @@
 <ul id="pantry_<?php echo $item['PantryLocation']['id'] ?>" class="pantry_group">
 
 <?php endif; ?>
-	<li id="item_<?php echo $item['FoodItem']['id'] ?>" class="food_item"><p class="quantity" id="quantity_<?php echo $item['FoodItem']['id'] ?>"><?php echo $item['FoodItem']['quantity']?></p>
+	<li id="item_<?php echo $item['FoodItem']['id'] ?>" class="food_item"><p class="food_delete"><?php echo $this->Html->image('/img/delete_spacer.png',array('url'=>'/pantry/delete_item/' . $item['FoodItem']['id'])) ?></p>
+	<p class="quantity" id="quantity_<?php echo $item['FoodItem']['id'] ?>"><?php echo $item['FoodItem']['quantity']?></p>
 	<p class="food_name"><?php echo $item['FoodItem']['name']?></p>
 	<p><?php echo $this->Html->image('add.png',array('onClick'=>'updateItem(' . $item['FoodItem']['id'] . ',1)','class'=>'image_anchor')); ?> <?php echo $this->Html->image('subtract.png',array('onClick'=>'updateItem(' . $item['FoodItem']['id'] . ',-1)','class'=>'image_anchor')); ?></p>
 	</li>

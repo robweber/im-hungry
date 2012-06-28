@@ -83,6 +83,12 @@ input[type=submit] {
 	color:#FFFFFF;
 }
 
+#search {
+	float:right;
+	margin-top:30px;
+	font-size:1.2em;
+}
+
 #content {
 	background-color:#FFFFFF;
 	margin:0;
@@ -103,11 +109,25 @@ input[type=submit] {
 }
 
 .pantry_group li {
+	cursor:move;
 	clear:both;
 }
 
 .food_item p {
 	float:left;
+}
+.food_item .food_delete {
+	margin-top:3px;
+}
+.food_item .food_delete, .recipe_instruction .delete_instruction {
+	width:25px;
+	height:25px;
+	cursor:pointer;
+}
+
+.food_item .food_delete:hover, .recipe_instruction .delete_instruction:hover {
+	background-image:url('../img/delete.png');
+	background-repeat:no-repeat;
 }
 
 .food_item .quantity {

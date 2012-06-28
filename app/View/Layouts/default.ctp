@@ -9,13 +9,16 @@
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('main');
+		echo $this->Html->css('jquery-ui-1.8.21.custom');
 		
 		echo $this->Html->script('jquery');
 		echo $this->Html->script('jquery.jeditable'); 
+		echo $this->Html->script('jquery-ui-1.8.21.custom.min'); 
 		
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+		
 	?>
 </head>
 <body>
@@ -28,6 +31,11 @@
 					<li><?php echo $this->Html->link('Pantry','/pantry/inventory') ?></li>
 					<li><?php echo $this->Html->image('settings_cog.png',array('class'=>'settings','url'=>array('controller'=>'admin','action'=>'index'))) ?></li>
 				</ul>
+			</div>
+			<div id="search">
+				<?php echo $this->Form->create('Search',array('url'=>'/recipe/search'))?>
+					<p>Search: <?php echo $this->Form->input('q',array('div'=>false,'label'=>false,'size'=>30))?></p>
+				<?php echo $this->Form->end(); ?>
 			</div>
 		</div>
 	</div>
@@ -44,5 +52,14 @@
 		</div>
 	</div>
 	<?php //echo $this->element('sql_dump'); ?>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#SearchQ').autocomplete({
+		source: '<?php echo $this->Html->url('/',true) ?>recipe/search',
+		delay:1,
+		autoFocus: true
+	});
+});
+</script>
 </body>
 </html>

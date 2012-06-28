@@ -789,3 +789,36 @@
 #3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-06-28 16:27:00 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Pantry\update_item.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName('update_item')
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render('update_item', NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\app\Controller\PantryController.php(115): Controller->render('update_item')
+#3 [internal function]: PantryController->move_item('1', '2')
+#4 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PantryController), Array)
+#5 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-28 16:37:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-28 16:38:08 Error: [MissingActionException] Action PantryController::delete_item() could not be found.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-06-28 16:47:27 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\Dropbox\JARVIS\I'm Hungry\app\Controller\RecipeController.php, line 41]
+2012-06-28 16:47:27 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\Dropbox\JARV...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\Dropbox\JARV...', 41, Array)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\Dropbox\JARV...', 41, Array)
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-06-28 17:28:09 Error: [MissingViewException] View file "C:\Dropbox\JARVIS\I'm Hungry\app\View\Recipe\search.ctp" is missing.
+#0 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Controller\Controller.php(955): View->render(NULL, NULL)
+#2 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(RecipeController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -1,9 +1,4 @@
 <div id="recipe">
-<?php
-	$this->Html->script('jquery-ui-1.8.21.custom.min',false); 
-	echo $this->Html->css('jquery-ui-1.8.21.custom');
-?>
-
 <h1><span class="editTitle"><?php echo $recipe['Recipe']['name']?></span><span class="recipeType">[ <span class="editType"><?php echo $recipe['RecipeType']['name']?></span> ]</span></h1>
 
 <p><?php echo $this->Form->input('ingredient_quantity',array('div'=>false,'label'=>false,'size'=>2,'value'=>1)); ?> <?php echo $this->Form->input('ingredient_name',array('div'=>false,'label'=>false)); ?> <?php echo $this->Form->button('Add',array('div'=>false,'label'=>false,'onClick'=>'add_ingredient()')); ?></p>
@@ -19,9 +14,11 @@
 </table>
 </div>
 <div id="instructions">
+	<div></div>
 	<?php foreach($recipe['RecipeInstruction'] as $instruction): ?>
 		<div class="recipe_instruction">
 			<p><?php echo $instruction['text'] ?></p>
+			<p style="float:right" class="delete_instruction"><?php echo $this->Html->image('/img/delete_spacer.png',array('url'=>'/recipe/delete_instruction/' . $instruction['id'] . '/' . $recipe['Recipe']['id'])) ?></p>
 		</div>
 	<?php endforeach;?>
 </div>
@@ -80,8 +77,20 @@ function add_ingredient(){
 
 function add_instruction(){
 	var text = $('#recipe_instruction').val();
+	var position = $('#instructions div').size();
+	
+	$('#recipe_instruction').val('');
+	$('#recipe_instruction').focus();
+	
+	$.post('<?php echo $this->Html->url('/',true) ?>recipe/add_instruction/',
+			{id: recipeId, text:text, position:position}, function(data){
+				response = jQuery.parseJSON(data);
 
-	//add to the bottom of the recipe instruction area
-	$('#instructions .recipe_instruction:last').after('<div class="recipe_instruction">' + text + '</div>');
+				//add to the bottom of the recipe instruction area
+				$('#instructions div:last').after('<div class="recipe_instruction"><p>' + response.text + '</p>' + 
+						'<p style="float:right" class="delete_instruction"><a href="/recipe/delete_instruction/' + response.id + '/' + response.recipe + '"><img src="/img/delete_spacer.png" /></a></p></div>');
+							
+				
+			});	
 }
 </script>

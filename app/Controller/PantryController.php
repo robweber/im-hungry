@@ -68,6 +68,12 @@ class PantryController extends AppController {
 		$this->redirect(array('controller'=>'Pantry','action'=>'inventory'));
 	}
 	
+	function delete_item($id){
+		$this->FoodItem->delete($id);
+		
+		$this->redirect(array('controller'=>'Pantry','action'=>'inventory'));
+	}
+	
 	//Ajax functions
 	
 	function search_food(){
