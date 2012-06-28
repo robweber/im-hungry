@@ -4,7 +4,7 @@
 <div id="recipe">
 <?php foreach ($allRecipes as $recipe): ?>
 
-<h1><?php echo $recipe['Recipe']['name']?> <span class="recipeType">[ <?php echo $recipe['RecipeType']['name']?> ]</span></h1>
+<h2><?php echo $this->Html->link($recipe['Recipe']['name'],'/food/edit_recipe/' . $recipe['Recipe']['id']) ?> <span class="recipeType">[ <?php echo $recipe['RecipeType']['name']?> ]</span></h2>
 
 <?php endforeach;?>
 </div>

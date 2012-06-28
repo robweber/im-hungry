@@ -20,6 +20,15 @@ img {
 	border:none;
 }
 
+a {
+	color:#000000;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#66CD00;
+}
+
 input[type=submit] {
 	padding:3px;
 }
@@ -136,4 +145,18 @@ input[type=submit] {
 #recipe #ingredient_table {
 	margin-top:20px;
 	font-size:1.2em;
+	margin-bottom:20px;
+}
+
+#instructions {
+	margin-top:50px;
+}
+
+.recipe_instruction {
+	padding:25px;
+	font-size:1.2em;
+}
+
+.recipe_instruction:hover {
+	background-color:#ECF1EF;
 }

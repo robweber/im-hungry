@@ -5,7 +5,7 @@ class FoodController extends AppController {
 	
 	function index(){
 		//get a list of recipes
-		$allRecipes = $this->Recipe->find('all',array('order'=>array('Recipe.name')));
+		$allRecipes = $this->Recipe->find('all',array('order'=>array('RecipeType.name','Recipe.name')));
 		$this->set("recipes",$allRecipes);
 		
 	}

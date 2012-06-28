@@ -1,5 +1,6 @@
 <p align="right"><?php echo $this->Html->image('add.png',array('url'=>'/food/edit_recipe'))?></p>
-
+<div id="recipe">
 <?php foreach($recipes as $recipe): ?>
-<p><?php echo $this->Html->link($recipe['Recipe']['name'],'/food/edit_recipe/'. $recipe['Recipe']['id'])?></p>
+<h2><?php echo $this->Html->link($recipe['Recipe']['name'],'/food/edit_recipe/'. $recipe['Recipe']['id'])?> <span class="recipeType">[ <?php echo $recipe['RecipeType']['name']?> ]</span></h2>
 <?php endforeach;?>
+</div>
