@@ -3,19 +3,20 @@
 <?php foreach($p_locations as $location): ?>
 <tr>
 	<td width="50%" class="edit" id="location_<?php echo $location['PantryLocation']['id']?>"><?php echo $location['PantryLocation']['name']?></td>
-	<td><?php echo $this->Html->link('Delete','/ajax/delete_location/' . $location['PantryLocation']['id'])?></td>
+	<td><?php echo $this->Html->link('Delete','/admin/delete_location/' . $location['PantryLocation']['id'])?></td>
 </tr>
 <?php endforeach; ?>
 <tr>
 	<td class="edit" id="location_new">Add Location</td>
 </tr>
 </table>
+<h1></h1>
 <h1>Recipe Types</h1>
 <table width="50%">
 <?php foreach($r_types as $type): ?>
 <tr>
 	<td width="50%" class="edit" id="type_<?php echo $type['RecipeType']['id']?>"><?php echo $type['RecipeType']['name']?></td>
-	<td><?php echo $this->Html->link('Delete','/ajax/delete_type/' . $type['RecipeType']['id'])?></td>
+	<td><?php echo $this->Html->link('Delete','/admin/delete_type/' . $type['RecipeType']['id'])?></td>
 </tr>
 <?php endforeach; ?>
 <tr>
@@ -25,7 +26,7 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-	$('.edit').editable('<?php echo $this->Html->url('/',true) ?>ajax/save_table', {
+	$('.edit').editable('<?php echo $this->Html->url('/',true) ?>admin/save_table', {
 		indicator: 'Saving...',
 		submit: 'OK',
 		cancel: 'Cancel',

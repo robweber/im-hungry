@@ -39,30 +39,7 @@ class AjaxController extends AppController {
 		$this->set('name',$name);
 	}
 	
-	function update_item($id, $quantity){
-		//amount can't be less than 0
-		if($quantity < 0)
-		{
-			$quantity = 0;
-		}
-		
-		$this->FoodItem->create();
-		$this->FoodItem->id = $id;
-		$this->FoodItem->set('quantity',$quantity);
-		$this->FoodItem->save();
-		
-		$this->set('output',array('id'=>$id,'quantity'=>$quantity));
-	}
 	
-	function move_item($id, $pantry){
-		$this->FoodItem->id = $id;
-		$this->FoodItem->set("location_id",$pantry);
-		$this->FoodItem->save();
-		
-		$this->set("output",array("id"=>$id,"location"=>$pantry));
-		
-		$this->render('update_item');
-	}
 	
 	function delete_location($id){
 		//check if any items use this location
@@ -82,48 +59,6 @@ class AjaxController extends AppController {
 	
 	function delete_type($id){
 		$this->redirect("/admin");
-	}
-	
-	function search_food(){
-		$q = 'no data';
-		if(isset($this->params['url']['term']))
-		{
-			$q = $this->params['url']['term'];
-		}
-		
-		//get the food items
-		$items = $this->FoodItem->find('list',array('fields'=>array('FoodItem.name'),'conditions'=>'FoodItem.name LIKE "' . $q . '%"'));
-		
-		$this->set('output',array_values($items));
-		$this->render('update_item');
-	}
-	
-	function update_recipe($id){
-		$field = $this->data['field'];
-		$value = $this->data['value'];
-		
-		$this->Recipe->id = $id;
-		$this->Recipe->set($field,$value);
-		$this->Recipe->save();
-		
-		$this->set('output',"Success");
-		$this->render('update_item');
-	}
-	
-	function add_ingredient(){
-		$id = $this->data['id'];
-		$quantity = $this->data['quantity'];
-		$name = $this->data['name'];
-		
-		//add the ingredient
-		$this->Ingredient->create();
-		$this->Ingredient->set('recipe_id',$id);
-		$this->Ingredient->set('quantity',$quantity);
-		$this->Ingredient->set('name',$name);
-		$this->Ingredient->save();
-		
-		$this->set('output',"Success");
-		$this->render('update_item');
 	}
 }
 

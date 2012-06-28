@@ -23,9 +23,9 @@
 		<div class="center_box">
 			<div id="top_nav">
 				<ul>
-					<li><?php echo $this->Html->link('Recipes','/') ?></li>
-					<li><?php echo $this->Html->link('Pantry','/food/pantry') ?></li>
-					<li><?php echo $this->Html->link("I'm Hungry",'/food/hungry') ?></li>
+					<li><?php echo $this->Html->link("I'm Hungry",'/') ?></li>
+					<li><?php echo $this->Html->link('Recipes','/recipe/') ?></li>
+					<li><?php echo $this->Html->link('Pantry','/pantry/inventory') ?></li>
 					<li><?php echo $this->Html->image('settings_cog.png',array('class'=>'settings','url'=>array('controller'=>'admin','action'=>'index'))) ?></li>
 				</ul>
 			</div>

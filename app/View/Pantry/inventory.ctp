@@ -2,7 +2,7 @@
 	$this->Html->script('jquery-ui-1.8.21.custom.min',false); 
 ?>
 
-<?php echo $this->Form->create('FoodItem',array('url'=>'/food/addFood'))?>
+<?php echo $this->Form->create('FoodItem',array('url'=>'/pantry/add_food'))?>
 <p align="right"><b>New Food: </b> <?php echo $this->Form->input('name',array('label'=>false,'div'=>false)) ?> <?php echo $this->Form->select('location_id',$p_locations,array('div'=>false,'label'=>false,'empty'=>false))?> <?php echo $this->Form->submit('Add',array('div'=>false))?></p>
 <?php echo $this->Form->end(); ?>
 
@@ -42,7 +42,7 @@ $(function(){
 			pantry = pantry.substring(7);
 	
 			//send ajax request
-			$.ajax('<?php echo $this->Html->url('/',true) ?>ajax/move_item/' + item + "/" + pantry);
+			$.ajax('<?php echo $this->Html->url('/',true) ?>pantry/move_item/' + item + "/" + pantry);
 		}
 	}).disableSelection();
 });
@@ -60,7 +60,7 @@ function updateItem(id, amount){
 	$('#quantity_' + id).html(current);
 	
 	//send the request
-	$.ajax('<?php echo $this->Html->url('/',true) ?>ajax/update_item/' + id + '/' + current);
+	$.ajax('<?php echo $this->Html->url('/',true) ?>pantry/update_item/' + id + '/' + current);
 	
 	
 }

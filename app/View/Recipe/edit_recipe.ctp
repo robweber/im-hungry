@@ -54,15 +54,15 @@ $(document).ready(function(){
 	});
 
 	$('#ingredient_name').autocomplete({
-			source: '<?php echo $this->Html->url('/',true) ?>ajax/search_food',
-			delay: 2,
+			source: '<?php echo $this->Html->url('/',true) ?>pantry/search_food',
+			delay:1,
 			autoFocus: true
 		});
 	
 });
 
 function update_value(field,value){
-	$.post('<?php echo $this->Html->url('/',true) ?>ajax/update_recipe/' + recipeId,
+	$.post('<?php echo $this->Html->url('/',true) ?>recipe/update_recipe/' + recipeId,
 			{field: field, value: value});
 }
 
@@ -74,7 +74,7 @@ function add_ingredient(){
 	$('#ingredient_table tr:last').after('<tr><td>' + quantity + '</td>' + 
 			'<td>' + name + '</td></tr>');
 
-	$.post('<?php echo $this->Html->url('/',true) ?>ajax/add_ingredient/',
+	$.post('<?php echo $this->Html->url('/',true) ?>recipe/add_ingredient/',
 			{id: recipeId, quantity: quantity, name: name});
 }
 
