@@ -1,7 +1,7 @@
 <?php
 
 class PantryController extends AppController {
-	var $uses = array('FoodItem','PantryLocation','Recipe','RecipeType','Ingredient');
+	var $uses = array('FoodItem','PantryLocation','Recipe','RecipeType','Ingredient','GroceryList');
 	
 	function index(){
 		//get any ingredients that we have on hand that match our recipies
@@ -74,6 +74,13 @@ class PantryController extends AppController {
 		$this->redirect(array('controller'=>'Pantry','action'=>'inventory'));
 	}
 	
+	function grocery_list(){
+		//get all the items on the grocery list
+		$allItems = $this->GroceryList->find('all');
+		$this->set('allItems',$allItems);
+		
+	}
+	
 	//Ajax functions
 	
 	function search_food(){
@@ -120,6 +127,34 @@ class PantryController extends AppController {
 		
 		$this->render('update_item');
 	}
+	
+	
+	function add_to_list(){
+		$this->layout = '';
+		
+		$this->GroceryList->create();
+		
+		//get the food item to add to the grocery list
+		$foodName = $this->data['name'];
+		
+		//check if this item has a valid food_id
+		$findFood = $this->FoodItem->find('first',array('conditions'=>array('FoodItem.name'=>$foodName)));
+		
+		//set either the food ID or the name
+		if($findFood){
+			$this->GroceryList->set('food_id',$findFood['FoodItem']['id']);
+		}
+		else
+		{
+			$this->GroceryList->set('name',$foodName);
+		}
+		
+		$this->GroceryList->save();
+		
+		$this->set('output',"Success");
+		$this->render('ajax');
+	}
+
 }
 
 ?>

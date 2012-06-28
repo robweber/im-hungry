@@ -7,8 +7,10 @@
 	</tr>
 	<?php foreach ($recipe['Ingredient'] as $ingredient): ?>
 	<tr>
+		<td width="5%" id="ingredient_<?php echo $ingredient['id'] ?>"><?php echo $this->Html->image('delete.png')?></td>
 		<td width="5%"><?php echo $ingredient['quantity']?></td>
-		<td><?php echo $ingredient['name'] ?>
+		<td width="60%"><?php echo $ingredient['name'] ?></td>
+		<td align="right"><?php echo $this->Html->link('Add To List','#',array('onClick'=>'add_grocery_list("' . $ingredient['name'] . '")'))?> | <?php echo $this->Html->link('Remove','/recipe/remove_ingredient/' . $ingredient['id'] . '/' . $recipe['Recipe']['id'])?></td>
 	</tr>
 	<?php endforeach;?>
 </table>
@@ -55,7 +57,8 @@ $(document).ready(function(){
 			delay:1,
 			autoFocus: true
 		});
-	
+
+	check_ingredients();
 });
 
 function update_value(field,value){
@@ -67,12 +70,20 @@ function add_ingredient(){
 	var quantity = $('#ingredient_quantity').val();
 	var name = $('#ingredient_name').val();
 
-	//add to table
-	$('#ingredient_table tr:last').after('<tr><td>' + quantity + '</td>' + 
-			'<td>' + name + '</td></tr>');
+	
 
 	$.post('<?php echo $this->Html->url('/',true) ?>recipe/add_ingredient/',
-			{id: recipeId, quantity: quantity, name: name});
+			{id: recipeId, quantity: quantity, name: name}, function(data){
+				response = jQuery.parseJSON(data);
+
+				//add to table
+				$('#ingredient_table tr:last').after('<tr><td id="ingredient_' + response.id + '"><img src="<?php echo $this->Html->url('/',true)?>img/delete.png" /></td>' + 
+						'<td>' + quantity + '</td>' + 
+						'<td>' + name + '</td></tr>');
+
+				//also check all ingredients again
+				check_ingredients();
+			});
 }
 
 function add_instruction(){
@@ -92,5 +103,23 @@ function add_instruction(){
 							
 				
 			});	
+}
+
+function check_ingredients(){
+	//get all of the ingredients we do have
+	$.post('<?php echo $this->Html->url('/',true)?>recipe/check_ingredients/' + recipeId, {},
+	function(data){
+		response = jQuery.parseJSON(data);
+
+		for(var i = 0; i < response.ingredients.length; i ++)
+		{
+			$('#ingredient_' + response.ingredients[i]).html('<img src="<?php echo $this->Html->url('/',true)?>img/check.png" />');
+		}
+	});
+}
+
+function add_grocery_list(ingredient){
+
+	$.post('<?php echo $this->Html->url('/',true)?>pantry/add_to_list/', {"name": ingredient });
 }
 </script>

@@ -29,6 +29,7 @@
 					<li><?php echo $this->Html->link("I'm Hungry",'/') ?></li>
 					<li><?php echo $this->Html->link('Recipes','/recipe/') ?></li>
 					<li><?php echo $this->Html->link('Pantry','/pantry/inventory') ?></li>
+					<li><?php echo $this->Html->link('List','/pantry/grocery_list')?></li>
 					<li><?php echo $this->Html->image('settings_cog.png',array('class'=>'settings','url'=>array('controller'=>'admin','action'=>'index'))) ?></li>
 				</ul>
 			</div>

@@ -69,6 +69,12 @@ class RecipeController extends AppController {
 		}
 	}
 	
+	function remove_ingredient($id,$recipe){
+		$this->Ingredient->delete($id);
+		
+		$this->redirect('/recipe/edit_recipe/' . $recipe);
+	}
+	
 	//Ajax functions
 	
 	function update_recipe($id){
@@ -99,11 +105,11 @@ class RecipeController extends AppController {
 		$this->Ingredient->set('name',$name);
 		$this->Ingredient->save();
 		
-		$this->set('output',"Success");
+		$this->set('output',array('id'=>$this->Ingredient->id,'recipe_id'=>$id,'quantity'=>$quantity,'name'=>$name));
 		$this->render('ajax');
 	}
 	
-function add_instruction(){
+	function add_instruction(){
 		$this->layout = '';
 		
 		$id = $this->data['id'];
@@ -119,4 +125,20 @@ function add_instruction(){
 		$this->set('output',array("id"=>$this->RecipeInstruction->id,"recipe"=>$id,'position'=>$position,'text'=>$text));
 		$this->render('ajax');
 	}
+	
+	function check_ingredients($recipe_id){
+		$this->layout = '';
+		
+		//get all the ingredients we do have for this recipe
+		$allIngredients = $this->Ingredient->query('select ingredients.id from ingredients inner join food_item on ingredients.name = food_item.name where ingredients.recipe_id = ' . $recipe_id . ' and food_item.quantity >= ingredients.quantity');
+		$result = array();
+		
+		foreach ($allIngredients as $ingredient){
+			$result[] = $ingredient['ingredients']['id'];	
+		}
+		
+		$this->set('output',array('ingredients'=>$result));
+		$this->render('ajax');
+	}
+
 }
