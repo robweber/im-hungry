@@ -1,5 +1,6 @@
 <?php
 	$this->Html->script('jquery-ui-1.8.21.custom.min',false); 
+	$this->Html->script('jquery.scrollTo-1.4.2-min',false);
 ?>
 
 <?php echo $this->Form->create('FoodItem',array('url'=>'/pantry/add_food'))?>
@@ -32,7 +33,7 @@
 
 <script type="text/javascript">
 
-$(function(){
+$(document).ready(function(){
 	$('<?php echo implode(",",$js_names) ?>').sortable({
 		connectWith: ".pantry_group",
 		remove: function(event,ui){
@@ -46,6 +47,12 @@ $(function(){
 			$.ajax('<?php echo $this->Html->url('/',true) ?>pantry/move_item/' + item + "/" + pantry);
 		}
 	}).disableSelection();
+
+	<?php if(isset($scroll)): ?>
+	
+	$.scrollTo($('#item_<?php echo $scroll ?>'));
+	
+	<?php endif; ?>
 });
 
 function updateItem(id, amount){

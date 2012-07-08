@@ -52,7 +52,7 @@ class PantryController extends AppController {
 		$this->set('r_types',$r_types);
 	}
 	
-	function inventory(){
+	function inventory($scroll = NULL){
 		//get list of locations
 		$p_locations = $this->PantryLocation->find('list',array('fields'=>array('id','name'),'order'=>array('PantryLocation.name')));
 		$this->set('p_locations',$p_locations);
@@ -60,6 +60,11 @@ class PantryController extends AppController {
 		//get all the foods currently in the pantry
 		$pantry = $this->FoodItem->find('all',array('order'=>array('PantryLocation.name','FoodItem.name')));
 		$this->set('pantry',$pantry);
+
+		if(isset($scroll))
+		{
+			$this->set('scroll',$scroll);
+		}
 	}
 	
 	function add_food(){

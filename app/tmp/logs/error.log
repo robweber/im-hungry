@@ -867,3 +867,23 @@
 #8 C:\Dropbox\JARVIS\I'm Hungry\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
 #9 C:\Dropbox\JARVIS\I'm Hungry\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2012-07-08 12:57:37 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName('update_item')
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render('update_item', NULL)
+#2 /var/www/hungry/app/Controller/PantryController.php(133): Controller->render('update_item')
+#3 [internal function]: PantryController->move_item('47', '15')
+#4 /var/www/hungry/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PantryController), Array)
+#5 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-07-08 12:57:45 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName('update_item')
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render('update_item', NULL)
+#2 /var/www/hungry/app/Controller/PantryController.php(133): Controller->render('update_item')
+#3 [internal function]: PantryController->move_item('47', '16')
+#4 /var/www/hungry/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PantryController), Array)
+#5 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

@@ -61,9 +61,9 @@ class DATABASE_CONFIG {
 
 	public $default = array(
 		'datasource' => 'Database/Mysql',
-		'host'=>'127.0.0.1',
+		'host'=>'192.168.1.102',
 		'login'=>'root',
-		'password'=>'root',
+		'password'=>'sith55',
 		'persistent' => false,
 		'database' => 'imhungry',
 		'prefix' => '',

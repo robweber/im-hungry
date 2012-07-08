@@ -42,19 +42,32 @@ class RecipeController extends AppController {
 		if(isset($this->data['Search']['q']))
 		{
 			$q = trim($this->data['Search']['q']);
-			
-			//get any recipes that match
-			$matches = $this->Recipe->find('all',array('conditions'=>array('Recipe.name LIKE "%' . $q . '"')));
-			
-			if(count($matches) == 1)
-			{
-				//we can just go right to this item
-				$this->redirect('/recipe/edit_recipe/' . $matches[0]['Recipe']['id']);
+
+			//check if we are doing a recipe or a food item
+			if(strrpos($q,'-') !== false){
+				//get the food item that matches
+				$itemName = substr($q,0,strrpos($q,'-') -1);
+
+				$matches = $this->FoodItem->find('first',array('conditions'=>array('FoodItem.name LIKE "' . $itemName . '"')));
+
+				$this->redirect('/pantry/inventory/' . $matches['FoodItem']['id'] );
 			}
 			else
 			{
-				$this->set('recipes',$matches);
-				$this->render('index');
+			
+				//get any recipes that match
+				$matches = $this->Recipe->find('all',array('conditions'=>array('Recipe.name LIKE "%' . $q . '"')));
+			
+				if(count($matches) == 1)
+				{
+					//we can just go right to this item
+					$this->redirect('/recipe/edit_recipe/' . $matches[0]['Recipe']['id']);
+				}
+				else
+				{
+					$this->set('recipes',$matches);
+					$this->render('index');
+				}
 			}
 		}
 		else
@@ -62,9 +75,27 @@ class RecipeController extends AppController {
 			$this->layout = '';
 			//we are autocompleteing (GET)
 			$q =  $this->params['url']['term'];
-			
+			$result = array();
+
+			//first get the recipes
 			$matches = $this->Recipe->find('list',array('fields'=>array('Recipe.name'),'conditions'=>'Recipe.name LIKE "' . $q . '%"'));
-			$this->set('output',array_values($matches));
+
+			//set the category
+			foreach(array_values($matches) as $value)
+			{
+				$result[] = array('label'=>$value,'category'=>'Recipe');
+			}
+
+			//now get the pantry items
+			$matches = $this->FoodItem->find('list',array('fields'=>array('FoodItem.quantity','FoodItem.name'),'conditions'=>'FoodItem.name LIKE "' . $q . '%" '));
+			foreach(array_keys($matches) as $value){
+				$result[] = array('label'=>$matches[$value] . ' - ' . $value,'category'=>'Pantry');
+			}
+
+			//sort the results
+			asort($result);
+
+			$this->set('output',$result);
 			$this->render('ajax');
 		}
 	}
