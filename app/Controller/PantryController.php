@@ -70,7 +70,7 @@ class PantryController extends AppController {
 	function add_food(){
 		$this->FoodItem->save($this->data['FoodItem']);
 		
-		$this->redirect(array('controller'=>'Pantry','action'=>'inventory'));
+		$this->redirect('/pantry/inventory/' . $this->FoodItem->id);
 	}
 	
 	function delete_item($id){
