@@ -10,6 +10,7 @@
 	<td class="edit" id="location_new">Add Location</td>
 </tr>
 </table>
+
 <h1></h1>
 <h1>Recipe Types</h1>
 <table width="50%">
@@ -24,6 +25,19 @@
 </tr>
 </table>
 
+<h1></h1>
+<h1>Measurement Types</h1>
+<table width="50%">
+<?php foreach($m_types as $type): ?>
+<tr>
+	<td width="50%" class="edit" id="measure_<?php echo $type['MeasurementType']['id']?>"><?php echo $type['MeasurementType']['label']?></td>
+	<td><?php echo $this->Html->link('Delete','/admin/delete_measure/' . $type['MeasurementType']['id'])?></td>
+</tr>
+<?php endforeach; ?>
+<tr>
+	<td class="edit" id="measure_new">Add Measurement</td>
+</tr>
+</table>
 <script type="text/javascript">
 $(document).ready(function(){
 	$('.edit').editable('<?php echo $this->Html->url('/',true) ?>admin/save_table', {
@@ -34,7 +48,7 @@ $(document).ready(function(){
 		tooltp: 'Click to edit',
 		callback: function(value,settings){
 			
-			if($(this).attr('id') == 'location_new' || $(this).attr('id') == 'type_new')
+			if($(this).attr('id') == 'location_new' || $(this).attr('id') == 'type_new' || $(this).attr('id') == 'measure_new')
 			{
 				//reload the page (taking the easy way out)
 				window.location.reload();

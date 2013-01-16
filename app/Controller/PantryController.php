@@ -1,7 +1,7 @@
 <?php
 
 class PantryController extends AppController {
-	var $uses = array('FoodItem','PantryLocation','Recipe','RecipeType','Ingredient','GroceryList');
+	var $uses = array('FoodItem','PantryLocation','Recipe','RecipeType','Ingredient','GroceryList','MeasurementType');
 	
 	function index(){
 		//get any ingredients that we have on hand that match our recipies
@@ -84,6 +84,22 @@ class PantryController extends AppController {
 		$allItems = $this->GroceryList->find('all');
 		$this->set('allItems',$allItems);
 		
+	}
+	
+	function edit_item($id){
+		if($this->request->is('post'))
+		{
+			$this->FoodItem->id = $id;
+			$this->FoodItem->save($this->data['FoodItem']);
+			$this->redirect('/pantry/inventory/' . $id);
+		}
+		
+		$item = $this->FoodItem->find('first',array('conditions'=>array("FoodItem.id"=>$id)));
+		$this->set("item",$item);
+		
+		//get a list of measurement types
+		$m_types = $this->MeasurementType->find('list',array('fields'=>array('MeasurementType.id','MeasurementType.label'),'order'=>array('MeasurementType.label')));
+		$this->set('m_types',$m_types);
 	}
 	
 	//Ajax functions

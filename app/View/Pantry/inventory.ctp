@@ -2,9 +2,12 @@
 	$this->Html->script('jquery-ui-1.8.21.custom.min',false); 
 	$this->Html->script('jquery.scrollTo-1.4.2-min',false);
 ?>
+<style>
+
+</style>
 
 <?php echo $this->Form->create('FoodItem',array('url'=>'/pantry/add_food'))?>
-<p align="right"><b>New Food: </b> <?php echo $this->Form->input('name',array('label'=>false,'div'=>false)) ?> <?php echo $this->Form->select('location_id',$p_locations,array('div'=>false,'label'=>false,'empty'=>false))?> <?php echo $this->Form->submit('Add',array('div'=>false))?></p>
+<p align="right"><b>New Food: </b> <?php echo $this->Form->input('name',array('label'=>false,'div'=>false)) ?> <?php echo $this->Form->select('location_id',$p_locations,array('div'=>false,'label'=>false,'empty'=>false))?> <?php echo $this->Form->button('Add',array('id'=>'add-food-button','div'=>false))?></p>
 <?php echo $this->Form->end(); ?>
 
 <?php
@@ -22,10 +25,19 @@
 <ul id="pantry_<?php echo $item['PantryLocation']['id'] ?>" class="pantry_group">
 
 <?php endif; ?>
-	<li id="item_<?php echo $item['FoodItem']['id'] ?>" class="food_item"><p class="food_delete"><?php echo $this->Html->image('/img/delete_spacer.png',array('url'=>'/pantry/delete_item/' . $item['FoodItem']['id'])) ?></p>
+	<li id="item_<?php echo $item['FoodItem']['id'] ?>" class="food_item">
+	<p class="food_delete"><?php echo $this->Html->image('/img/delete_spacer.png',array('url'=>'/pantry/delete_item/' . $item['FoodItem']['id'])) ?></p>
 	<p class="quantity" id="quantity_<?php echo $item['FoodItem']['id'] ?>"><?php echo $item['FoodItem']['quantity']?></p>
-	<p class="food_name"><?php echo $item['FoodItem']['name']?></p>
+	<p class="food_name">
+		<?php echo $item['FoodItem']['name'] ?>
+		<?php if(isset($item['MeasurementType']['id']))
+		{
+			echo " [" . $item['FoodItem']['size'] . " " . $item['MeasurementType']['label'] . "] ";
+		}
+		?>
+	</p>
 	<p><?php echo $this->Html->image('add.png',array('onClick'=>'updateItem(' . $item['FoodItem']['id'] . ',1)','class'=>'image_anchor')); ?> <?php echo $this->Html->image('subtract.png',array('onClick'=>'updateItem(' . $item['FoodItem']['id'] . ',-1)','class'=>'image_anchor')); ?></p>
+	<p style="float:right"><?php echo $this->Html->link('Edit','/pantry/edit_item/' . $item['FoodItem']['id']) ?></p>
 	</li>
 	<?php endforeach?>
 	
@@ -53,6 +65,7 @@ $(document).ready(function(){
 	$.scrollTo($('#item_<?php echo $scroll ?>'));
 	
 	<?php endif; ?>
+
 });
 
 function updateItem(id, amount){

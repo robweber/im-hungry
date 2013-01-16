@@ -887,3 +887,1889 @@
 #6 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
 #7 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2012-07-08 18:12:38 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:12:40 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:12:41 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:12:43 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:12:44 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:12:45 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:13:06 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:13:07 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:13:28 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:13:28 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:13:48 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:13:49 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:13:49 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:14:37 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:14:38 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:14:41 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:15:28 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:17:16 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:17:19 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:17:53 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-08 18:17:54 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:01:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'FootItem.id' in 'where clause'
+#0 /var/www/hungry/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/hungry/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `FoodIte...', Array)
+#2 /var/www/hungry/lib/Cake/Model/Datasource/DboSource.php(670): DboSource->execute('SELECT `FoodIte...', Array, Array)
+#3 /var/www/hungry/lib/Cake/Model/Datasource/DboSource.php(1081): DboSource->fetchAll('SELECT `FoodIte...', false)
+#4 /var/www/hungry/lib/Cake/Model/Model.php(2631): DboSource->read(Object(FoodItem), Array)
+#5 /var/www/hungry/app/Controller/PantryController.php(90): Model->find('first', Array)
+#6 [internal function]: PantryController->edit_item('69')
+#7 /var/www/hungry/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PantryController), Array)
+#8 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-01-12 19:06:12 Error: Fatal Error (1): Unsupported operand types in [/var/www/hungry/lib/Cake/View/Helper/FormHelper.php, line 1805]
+2013-01-12 19:06:12 Error: [FatalErrorException] Unsupported operand types
+#0 /var/www/hungry/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/var/www/hungry...', 1805)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/var/www/hungry...', 1805, Array)
+#2 /var/www/hungry/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/var/www/hungry...', 1805, Array)
+#3 /var/www/hungry/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-01-12 19:49:17 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:49:18 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:49:18 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:49:19 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:50:23 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName('update_item')
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render('update_item', NULL)
+#2 /var/www/hungry/app/Controller/PantryController.php(149): Controller->render('update_item')
+#3 [internal function]: PantryController->move_item('71', '22')
+#4 /var/www/hungry/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PantryController), Array)
+#5 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-01-12 19:50:33 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:51:03 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:51:04 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:51:57 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:52:00 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:52:02 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:52:03 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:52:04 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:52:05 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:52:50 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:52:52 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:52:53 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:52:54 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:53:28 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:54:10 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:55:41 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:57:00 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:57:59 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:58:34 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 19:59:34 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:00:35 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:02:20 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:02:59 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:03:50 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:10:44 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:12:31 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:12:34 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:13:15 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:14:26 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:14:39 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:14:40 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:15:27 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:15:45 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:17:01 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:17:29 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:18:07 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:18:08 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:19:03 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:19:04 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:19:05 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:19:06 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:19:07 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:20:05 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:21:05 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:21:38 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:21:39 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:21:40 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:22:24 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:22:25 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:23:31 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:23:32 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:23:33 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:23:34 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:23:35 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:24:11 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:24:12 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:24:13 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:24:14 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:24:15 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:24:15 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:24:16 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:24:17 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:25:05 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:25:06 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:25:07 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:25:08 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:25:59 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:26:00 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:26:27 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:27:23 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:27:44 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:28:03 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:28:31 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-12 20:29:05 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:08:35 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:09:16 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:09:42 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:10:06 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:10:58 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:10:59 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:10:59 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:11:02 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:11:02 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 14:12:05 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:03:03 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:03:04 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:03:24 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:13:59 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:14:00 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:14:39 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:14:54 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:15:36 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:15:36 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:18:32 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:18:34 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:19:20 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:19:55 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:20:06 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:20:35 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:20:35 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:20:36 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:21:36 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:21:37 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:21:39 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:21:40 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:22:35 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:22:38 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:22:38 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:22:39 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:22:40 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:23:46 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:23:48 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:24:36 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:24:37 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:24:43 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:24:44 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:24:50 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:25:24 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:26:41 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:26:42 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 16:27:32 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:42:35 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:42:38 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:42:38 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:42:38 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:53:39 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:53:40 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:54:30 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:55:22 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:55:23 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:55:55 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:55:56 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:55:58 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:56:56 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:56:58 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:56:59 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:57:02 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:57:22 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:57:23 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:57:24 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:57:25 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:58:08 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:58:40 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:58:41 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:58:42 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:58:43 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 19:59:05 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:01:51 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:01:52 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:02:27 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:02:49 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:02:50 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:02:51 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:02:52 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:02:53 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:02:54 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:02:55 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:04 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:05 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:06 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:07 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:19 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:20 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:21 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:22 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:23 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:37 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:38 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:39 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:51 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:52 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:03:53 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:04:21 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:04:49 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:10 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:11 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:12 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:40 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:41 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:42 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:43 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:44 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:44 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:05:55 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:06:54 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:06:55 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:06:55 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:07:24 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:07:25 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:07:25 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:07:49 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:07:49 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:07:50 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:07:51 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:07:51 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:07:52 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:12 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:14 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:15 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:16 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:16 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:17 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:18 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:25 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:35 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:36 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:41 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:42 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:55 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:58 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:59 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:08:59 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:09:23 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:09:24 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:10:04 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:10:39 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:10:40 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:10:41 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:11:30 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:11:31 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:11:32 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:32:15 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:32:16 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:32:16 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:32:17 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:32:18 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:32:19 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:33:15 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:33:16 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:33:50 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:34:30 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:35:02 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:35:03 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-13 20:35:23 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-14 22:13:57 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-14 22:14:09 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-14 22:14:21 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-15 17:51:26 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-15 17:54:13 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-01-15 17:54:15 Error: [MissingViewException] View file "/var/www/hungry/app/View/Pantry/update_item.ctp" is missing.
+#0 /var/www/hungry/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/hungry/lib/Cake/Controller/Controller.php(955): View->render(NULL, NULL)
+#2 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/hungry/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PantryController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/hungry/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
