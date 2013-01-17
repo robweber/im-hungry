@@ -38,6 +38,26 @@
 	<td class="edit" id="measure_new">Add Measurement</td>
 </tr>
 </table>
+
+<h1></h1>
+<h1>Measurement Conversions</h1>
+<table width="90%">
+<?php foreach($m_conversions as $conv): ?>
+<tr>
+	<td width="33%"><?php echo $conv['MeasurementConversion']['input_quantity']?> <?php echo $m_types_list[$conv['MeasurementConversion']['input_measurement_id']]?></td>
+	<td width="15%">Equals</td>
+	<td width="33%"><?php echo $conv['MeasurementConversion']['output_quantity']?> <?php echo $m_types_list[$conv['MeasurementConversion']['output_measurement_id']]?></td>
+</tr>
+<?php endforeach; ?>
+<?php echo $this->Form->create('MeasurementConversion',array('url'=>'/admin/add_conversion')) ?>
+<tr>
+	<td><p><?php echo $this->Form->input('input_quantity',array('div'=>false,'label'=>false,'size'=>5)) ?> <?php echo $this->Form->select('input_measurement_id',$m_types_list,array('div'=>false,'label'=>false)) ?></p></td>
+	<td><p>Equals</p></td>
+	<td><?php echo $this->Form->input('output_quantity',array('div'=>false,'label'=>false,'size'=>5)) ?> <?php echo $this->Form->select('output_measurement_id',$m_types_list,array('div'=>false,'label'=>false)) ?> 
+	<?php echo $this->Form->submit('Create',array('div'=>false)) ?></td>
+</tr>
+<?php echo $this->Form->end() ?>
+</table>
 <script type="text/javascript">
 $(document).ready(function(){
 	$('.edit').editable('<?php echo $this->Html->url('/',true) ?>admin/save_table', {

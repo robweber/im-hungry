@@ -32,7 +32,7 @@
 		<?php echo $item['FoodItem']['name'] ?>
 		<?php if(isset($item['MeasurementType']['id']))
 		{
-			echo " [" . $item['FoodItem']['size'] . " " . $item['MeasurementType']['label'] . "] ";
+			echo '<span style="font-size:.7em">[ ' . $item['FoodItem']['size'] . " " . $item['MeasurementType']['label'] . " ]</span> ";
 		}
 		?>
 	</p>

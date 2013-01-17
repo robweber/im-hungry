@@ -1,7 +1,7 @@
 <?php
 
 class RecipeController extends AppController {
-	var $uses = array('FoodItem','PantryLocation','Recipe','RecipeType','Ingredient','RecipeInstruction');
+	var $uses = array('FoodItem','PantryLocation','Recipe','RecipeType','Ingredient','RecipeInstruction','MeasurementType','MeasurementConversion');
 	
 	function index(){
 		//get a list of recipes
@@ -28,6 +28,10 @@ class RecipeController extends AppController {
 		//get a list of all recipe types
 		$allTypes = $this->RecipeType->find('list',array('fields'=>array('RecipeType.id','RecipeType.name'),'order'=>'RecipeType.name'));
 		$this->set('recipeTypes',$allTypes);
+
+		//list of measurement types
+		$m_types = $this->MeasurementType->find('list',array('fields'=>array('MeasurementType.id','MeasurementType.label'),'order'=>'MeasurementType.label'));
+		$this->set('m_types',$m_types);
 		
 	}
 	
@@ -127,6 +131,7 @@ class RecipeController extends AppController {
 		
 		$id = $this->data['id'];
 		$quantity = $this->data['quantity'];
+		$m_type = $this->data['measurement'];
 		$name = $this->data['name'];
 		
 		//add the ingredient
@@ -134,9 +139,10 @@ class RecipeController extends AppController {
 		$this->Ingredient->set('recipe_id',$id);
 		$this->Ingredient->set('quantity',$quantity);
 		$this->Ingredient->set('name',$name);
+		$this->Ingredient->set('measurement_id',$m_type);
 		$this->Ingredient->save();
 		
-		$this->set('output',array('id'=>$this->Ingredient->id,'recipe_id'=>$id,'quantity'=>$quantity,'name'=>$name));
+		$this->set('output',array('id'=>$this->Ingredient->id,'recipe_id'=>$id,'quantity'=>$quantity,'measurement'=>$this->data['measurement_name'],'name'=>$name));
 		$this->render('ajax');
 	}
 	
@@ -159,17 +165,62 @@ class RecipeController extends AppController {
 	
 	function check_ingredients($recipe_id){
 		$this->layout = '';
-		
-		//get all the ingredients we do have for this recipe
-		$allIngredients = $this->Ingredient->query('select ingredients.id from ingredients inner join food_item on ingredients.name = food_item.name where ingredients.recipe_id = ' . $recipe_id . ' and food_item.quantity >= ingredients.quantity');
 		$result = array();
+
+		//get all the ingredients we do have for this recipe
+		$allIngredients = $this->Ingredient->find('all',array('conditions'=>array('Ingredient.recipe_id'=>$recipe_id)));
 		
+		//go through each ingredient and check if we have enough
 		foreach ($allIngredients as $ingredient){
-			$result[] = $ingredient['ingredients']['id'];	
+			//get the pantry item
+			$pantryItem = $this->FoodItem->find('first',array('conditions'=>array('FoodItem.name'=>$ingredient['Ingredient']['name'])));
+			//echo $pantryItem['FoodItem']['name'] . ' mid: ' . $ingredient['Ingredient']['measurement_id'] . " " . $pantryItem['FoodItem']['measurement_id'] . " quantity:" . 
+			//$pantryItem['FoodItem']['quantity'] . " " . $pantryItem['FoodItem']['size'] . ' ' . $ingredient['Ingredient']['quantity'] . "<br>";
+			//check if the measurements are the same
+			if($pantryItem['FoodItem']['measurement_id'] == $ingredient['Ingredient']['measurement_id'])
+			{
+				//this is easy, just do a straight compare
+				if($ingredient['Ingredient']['quantity'] <= ($pantryItem['FoodItem']['quantity'] * $pantryItem['FoodItem']['size']))
+				{
+					$result[] = $ingredient['Ingredient']['id'];
+				}
+			}
+			else if ($pantryItem['FoodItem']['measurement_id'] != 0 && $ingredient['Ingredient']['measurement_id'] != 0)
+			{
+				$conversion_rate = $this->_conversion($ingredient['Ingredient']['measurement_id'],$pantryItem['FoodItem']['measurement_id']);
+				
+				if($conversion_rate !== false)
+				{
+					if(($ingredient['Ingredient']['quantity'] * $conversion_rate) <= ($pantryItem['FoodItem']['quantity'] * $pantryItem['FoodItem']['size']))
+					{
+						$result[] = $ingredient['Ingredient']['id'];
+					}
+				}
+			}
 		}
 		
 		$this->set('output',array('ingredients'=>$result));
 		$this->render('ajax');
+	}
+	
+	function _conversion($from,$to){
+		$conversion = $this->MeasurementConversion->find('first',array('conditions'=>array('MeasurementConversion.input_measurement_id = ' . $from . ' or MeasurementConversion.output_measurement_id = ' . $from)));
+		
+		if(isset($conversion)){
+			if($conversion['MeasurementConversion']['input_measurement_id'] == $from)
+			{
+				return $conversion['MeasurementConversion']['output_quantity'];
+			}
+			else
+			{
+				return $conversion['MeasurementConversion']['input_quantity'] / $conversion['MeasurementConversion']['output_quantity']; 
+			}
+		}
+		else 
+		{
+			return false;
+		}
+		
 	}
 
 }

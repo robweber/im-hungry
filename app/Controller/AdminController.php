@@ -1,7 +1,7 @@
 <?php
 
 class AdminController extends AppController {
-	var $uses = array('PantryLocation','RecipeType','FoodItem','MeasurementType');
+	var $uses = array('PantryLocation','RecipeType','FoodItem','MeasurementType','MeasurementConversion');
 	
 	function index(){
 		
@@ -14,6 +14,12 @@ class AdminController extends AppController {
 		
 		$m_types = $this->MeasurementType->find('all',array('order'=>array("MeasurementType.label")));
 		$this->set('m_types',$m_types);
+		
+		$m_types_list = $this->MeasurementType->find('list',array('fields'=>array('MeasurementType.id','MeasurementType.label'),'order'=>'MeasurementType.label'));
+		$this->set('m_types_list',$m_types_list);
+		
+		$m_conversions = $this->MeasurementConversion->find('all',array('order'=>'MeasurementConversion.id'));
+		$this->set('m_conversions',$m_conversions);
 		
 	}
 	
@@ -95,6 +101,11 @@ class AdminController extends AppController {
 		}
 		
 		$this->redirect("/admin");
+	}
+
+	function add_conversion(){
+		$this->MeasurementConversion->save($this->data['MeasurementConversion']);
+		$this->redirect('/admin');
 	}
 }
 

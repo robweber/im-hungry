@@ -1,14 +1,17 @@
 <div id="recipe">
 <h1><span class="editTitle"><?php echo $recipe['Recipe']['name']?></span><span class="recipeType">[ <span class="editType"><?php echo $recipe['RecipeType']['name']?></span> ]</span></h1>
 
-<p><?php echo $this->Form->input('ingredient_quantity',array('div'=>false,'label'=>false,'size'=>2,'value'=>1)); ?> <?php echo $this->Form->input('ingredient_name',array('div'=>false,'label'=>false)); ?> <?php echo $this->Form->button('Add',array('div'=>false,'label'=>false,'onClick'=>'add_ingredient()')); ?></p>
+<p><?php echo $this->Form->input('ingredient_quantity',array('div'=>false,'label'=>false,'size'=>2,'value'=>1)); ?> 
+<?php echo $this->Form->select('ingredient_measurement',$m_types,array('div'=>false,'label'=>false)); ?>
+<?php echo $this->Form->input('ingredient_name',array('div'=>false,'label'=>false)); ?> 
+<?php echo $this->Form->button('Add',array('div'=>false,'label'=>false,'onClick'=>'add_ingredient()')); ?></p>
 <table width="90%" id="ingredient_table">
 	<tr>
 	</tr>
 	<?php foreach ($recipe['Ingredient'] as $ingredient): ?>
 	<tr>
 		<td width="5%" id="ingredient_<?php echo $ingredient['id'] ?>"><?php echo $this->Html->image('delete.png')?></td>
-		<td width="5%"><?php echo $ingredient['quantity']?></td>
+		<td width="10%"><?php echo $ingredient['quantity']?> <?php if($ingredient['measurement_id'] != 0): echo $m_types[$ingredient['measurement_id']]; endif; ?></td>
 		<td width="60%"><?php echo $ingredient['name'] ?></td>
 		<td align="right"><?php echo $this->Html->link('Add To List','#',array('onClick'=>'add_grocery_list("' . $ingredient['name'] . '")'))?> | <?php echo $this->Html->link('Remove','/recipe/remove_ingredient/' . $ingredient['id'] . '/' . $recipe['Recipe']['id'])?></td>
 	</tr>
@@ -69,16 +72,17 @@ function update_value(field,value){
 function add_ingredient(){
 	var quantity = $('#ingredient_quantity').val();
 	var name = $('#ingredient_name').val();
-
+	var measurement = $('#ingredient_measurement option:selected').val();
+	var measurement_name = $('#ingredient_measurement option:selected').text();
 	
 
 	$.post('<?php echo $this->Html->url('/',true) ?>recipe/add_ingredient/',
-			{id: recipeId, quantity: quantity, name: name}, function(data){
+			{id: recipeId, quantity: quantity, name: name, measurement: measurement, measurement_name: measurement_name}, function(data){
 				response = jQuery.parseJSON(data);
 
 				//add to table
 				$('#ingredient_table tr:last').after('<tr><td id="ingredient_' + response.id + '"><img src="<?php echo $this->Html->url('/',true)?>img/delete.png" /></td>' + 
-						'<td>' + quantity + '</td>' + 
+						'<td>' + quantity + ' ' + measurement_name + '</td>' + 
 						'<td>' + name + '</td></tr>');
 
 				//also check all ingredients again
